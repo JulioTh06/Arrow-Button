@@ -1,0 +1,52 @@
+#invite-btn {
+    text-decoration: none;
+    font-size: 1rem;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#invite-btn button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 3rem;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: black;
+    white-space: nowrap;
+    transition: 0.3s ease-out;
+}
+
+#invite-btn:hover#invite-btn button {
+    width: 200px;
+}
+
+#invite-btn span {
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#invite-btn #span-in {
+    color: white;
+}
+
+#invite-btn #span-out {
+    visibility: visible;
+    color: white;
+}
+
+#invite-btn:hover#invite-btn #span-out {
+    visibility: hidden;
+}
+
+#invite-btn button i {
+    color: white);
+}
+
+#invite-btn button i, #span-in, #span-out {
+    pointer-events: none;
+}
